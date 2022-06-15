@@ -1,0 +1,110 @@
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/*******************头部************************/
+.header{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	flex-direction: row;
+	background-color: aliceblue;
+	border-bottom: 0.5vw solid #cbcbcc;
+}
+.header .back{
+	height: 100%;
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 4vw;
+	color: royalblue;
+}
+.header .theme{
+	height: 100%;
+	width: 85%;
+	display: flex;
+	align-items: center;
+	font-size: 4vw;
+}
+.header .theme p{
+	margin-left: 25vw;
+}
+
+/***********************内容部分***************************/
+.content{
+	width: 100%;
+	height: 93%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.content .question{
+	width: 95%;
+	height: 35vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 3vw;
+}
+.content .question .label{
+	width: 50%;
+	height: 6vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 5vw;
+	border-radius: 5vw;
+	font-size: 4vw;
+}
+.content .question .qname{
+	font-size: 11vw;
+	margin-top: 2vw;
+}
+.content #q1{
+	background-color: #fdd716;
+}
+.content #q1 .label{
+	background-color: #f3b421;
+	color: #fdd716;
+}
+.content #q1 .qname{
+	color: #fcfdaa;
+}
+
+.content #q2{
+	background-color: #71e789;
+}
+.content #q2 .label{
+	background-color: #73b075;
+	color: #71e789;
+}
+.content #q2 .qname{
+	color: #c3fdc5;
+}
+
+.content #q3{
+	background-color: #fd675c;
+}
+.content #q3 .label{
+	background-color: #bf655e;
+	color: #fd675c;
+}
+.content #q3 .qname{
+	color: #fdbaae;
+}
+
+.content #q4{
+	background-color: #4ba1fd;
+}
+.content #q4 .label{
+	background-color: #95a5c1;
+	color: #4ba1fd;
+}
+.content #q4 .qname{
+	color: #c3d0fd;
+}
+

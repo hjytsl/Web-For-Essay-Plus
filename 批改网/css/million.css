@@ -1,0 +1,79 @@
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/*******************头部************************/
+.header{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	flex-direction: row;
+	background-color: aliceblue;
+	border-bottom: 0.5vw solid #cbcbcc;
+}
+.header .back{
+	height: 100%;
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 4vw;
+	color: royalblue;
+}
+.header .theme{
+	height: 100%;
+	width: 85%;
+	display: flex;
+	align-items: center;
+	font-size: 4vw;
+	margin-left: 10vw;
+}
+
+/***********************内容部分***************************/
+.content{
+	width: 100%;
+	height: 93%;
+	background-color: white;
+	background: url(../img/f02.JPG) no-repeat fixed center;
+	background-size: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.content .name{
+	font-size: 4vw;
+	margin-top: 16vw;
+}
+.content .info{
+	width: 55vw;
+	height: 30vw;
+	background-color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 4vw;
+	border-radius: 3vw;
+	margin-top: 55vw;
+}
+.content .info p{
+	margin-top: 3vw;
+}
+.content .info p i{
+	color: red;
+	background-color: white;
+}
+
+.content .final{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 4vw;
+	width: 55vw;
+	height: 8vw;
+	background-color: aliceblue;
+	border-radius: 3vw;
+	margin-top: 5vw;
+}

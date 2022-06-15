@@ -1,0 +1,71 @@
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/*******************头部************************/
+.header{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	flex-direction: row;
+	background-color: aliceblue;
+	border-bottom: 0.5vw solid #cbcbcc;;
+}
+.header .back{
+	height: 100%;
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 4vw;
+	color: royalblue;
+}
+.header .theme{
+	height: 100%;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 4vw;
+}
+.header .sub{
+	height: 100%;
+	width: 15%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: royalblue;
+	pointer-events: none;
+	font-size: 3.5vw;
+}
+
+/***********************内容部分***************************/
+.content{
+	width: 100%;
+	height: 93%;
+	background-color: white;
+}
+.content .wordCount{
+	width: 6vw;
+	height: 6vw;
+	background-color: lightgray;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3vw;
+	margin-top: 2vw;
+	margin-left: 2vw;
+}
+.content .text{
+	outline: none;
+	min-width: 99%;
+	max-width: 99%;
+	min-height: 100%;
+	max-height: 100%;
+	border: none;
+	font-size: 5vw;
+}
